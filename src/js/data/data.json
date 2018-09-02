@@ -1,0 +1,7 @@
+[
+    {"name": "Pedestrians", "items": [42]},
+    {"name": "Bicyles", "items": [24]},
+    {"name": "Cars", "items": [18]},
+    {"name": "Vans", "items": [8]},
+    {"name": "Trains", "items": [4]}
+]

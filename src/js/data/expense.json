@@ -1,0 +1,28 @@
+{
+    "2017" : {
+        "04": {
+            "Home": 13204,
+            "Investment": 1450,
+            "Rent": 600,
+            "Virtue": 50,
+            "Mobile": 349,
+            "Travel": 202,
+            "Dress": 4361,
+            "Bike": 50,
+            "Food/Misc": 6490,
+            "Friends": 130 
+        },
+        "05": {
+            "Home": 38677,
+            "Investment": 1450,
+            "Rent": 600,
+            "Virtue": 50,
+            "Bike": 1186,
+            "Mobile": 399,
+            "Dress": 5993,
+            "Travel": 3938,
+            "Impcops": 160,
+            "Food/Misc": 6244
+        }
+    }    
+}

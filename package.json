@@ -1,0 +1,21 @@
+{
+  "name": "01-basic",
+  "version": "1.0.0",
+  "description": "Expense Manager based on OJET",
+  "dependencies": {
+    "@oracle/oraclejet": "~5.0.0",
+    "underscore": "^1.9.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "@oracle/grunt-oraclejet": "~5.0.0",
+    "load-grunt-config": "0.19.2",
+    "@oracle/oraclejet-tooling": "~5.0.0",
+    "qunit-reporter-junit": "^1.1.1",
+    "qunit": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "private": true
+}

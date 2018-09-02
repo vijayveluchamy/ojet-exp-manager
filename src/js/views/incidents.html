@@ -1,0 +1,15 @@
+<!--
+ Copyright (c) 2014, 2018, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Incidents Content Area</h1>
+  <div>
+     <oj-select-one id="chart-select" value="{{chartType}}">
+        <oj-option value="pie">Pie</oj-option> 
+        <oj-option value="bar">Bar</oj-option> 
+     </oj-select-one>
+
+      <oj-chart type="[[chartType]]" series="[[datasource]]"></oj-chart>
+  </div>
+</div>

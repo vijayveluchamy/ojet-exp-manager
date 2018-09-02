@@ -1,0 +1,41 @@
+<!--
+ Copyright (c) 2014, 2018, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+ <div class="oj-hybrid-padding">
+    <h1 class="report-header">Monthly Detailed Report</h1>
+    <div>
+      <label>Select Year: </label>
+       <oj-select-one id="select-year" on-value-changed="[[onYearChange]]">
+         <!-- ko foreach: years -->
+          <oj-option value="[[value]]">
+            <span data-bind="text: label"></span>
+          </oj-option> 
+         <!-- /ko --> 
+       </oj-select-one>
+    </div>
+    <div>
+        <label>Select Month: </label>
+        <oj-select-one id="select-month" on-value-changed="[[onMonthChange]]">
+        <!-- ko foreach: months -->
+        <oj-option value="[[value]]">
+            <span data-bind="text: label"></span>
+        </oj-option> 
+        <!-- /ko --> 
+        </oj-select-one>
+    </div>
+    <div>
+        <oj-chart 
+          type="pie" 
+          id="monthly-detailed-chart" 
+          series="[[datasource]]"
+          animation-on-display="auto"
+          stack-label="on"
+          data-label="[[chartDataLabel]]"
+          animation-on-display="auto"
+          animation-on-data-change="auto"
+          hover-behavior="dim"
+        />
+    </div>
+  </div>
+  
